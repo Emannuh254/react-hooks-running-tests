@@ -97,6 +97,7 @@ This example is doing the following:
   browser environment after our component is rendered.
 - `screen`: This method provides a way to interact with the simulated browser
   environment, namely by giving us a number of [query methods][] to search the
+  
   DOM for elements we expect to have been rendered (think of it like a
   supercharged version of `document.querySelector`). `screen.queryByText()`
   searches the virtual DOM for some element that has the text content
