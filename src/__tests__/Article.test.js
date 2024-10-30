@@ -12,7 +12,7 @@ test("displays the text 'please pass this test'", () => {
   }
   screen.debug();
 
-  expect(screen.queryByText("please pass this test")).toBeInTheDocument();
-});
-  
+
+expect(screen.queryByText("please pass this test")).toBeInTheDocument();
+});  
 
